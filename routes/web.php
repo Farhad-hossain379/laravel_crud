@@ -42,3 +42,5 @@ Route:: post("/create-department-post","UserController@createDepartmentPost");
 Route:: post("/edit-department-post","UserController@editDepartmentPost");
 Route:: get("/delete-department/{id}","UserController@deleteDepartment");
 Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/home', 'HomeController@index')->name('home');
+
